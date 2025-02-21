@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    
+
+} 
+ 
+ 
+ header{
+    display:flex;
+    background-color:peachpuff;
+    height:50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid rgb(160, 154, 154);
+}
+.logo_container{
+    margin_left:2%;
+
+}
+.action_bar{
+    margin-right: 2%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color:blue;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav_bar a sup{
+    color: red;
+    font-size: 10px;
+
+}
+.search_bar{
+height:40px;
+min-width: 400px;
+display: flex;
+align-items: center;
+}
+.search_icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: aqua;
+    font-weight: 300;
+    border-radius: 5px;
+
+}
+.search_input{
+    color: blue;
+background-color:white;
+flex-grow: .5;
+height: 25px;
+border: 0;
+text-align: center;
+border-radius: 7px;
+}
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Main section */
+.banner_container{
+    margin: 10px 0;
+    text-align: center;
+
+}
+.banner_image{
+    width:100%;
+    
+}
+.category_heading{
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin:50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    
+
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+
+}
+.sale_item{
+    width:250px;
+    
+}
+.category_items2{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.footer_container{
+    padding: 30px 10px 40px 10px;
+    background-color: #fafbfc;
+    display:flex;
+    justify-content: space-between;
+
+}
+.footer_column{
+    display: flex;
+    flex-direction:column ;
+    justify-content:space-between;
+
+    
+
+}
+.footer_column a {
+    color: #000000;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding: 5px;
+    
+    
+}
+ .footer_column h4{
+    margin-bottom: 25px;
+    
+    
+
+}
+
