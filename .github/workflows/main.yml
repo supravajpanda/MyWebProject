@@ -8,4 +8,3 @@ jobs:
         run: echo "Hello"
       - name: Bye
         run: echo "Done"
-      
