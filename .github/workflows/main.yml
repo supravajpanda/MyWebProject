@@ -4,7 +4,5 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: first greeting
-        run: echo "Hello"
-      - name: Bye
-        run: echo "Done"
+      -  name: test
+      
